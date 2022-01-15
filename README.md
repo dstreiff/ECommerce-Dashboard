@@ -1,10 +1,8 @@
 # GUI Dashboard 
 
-### Lightmode:
 
 ![alt text](https://github.com/dstreiff/ECommerce-Dashboard/blob/master/src/images/image.png?raw=true)
  
-
 
 ## Functionality
 
