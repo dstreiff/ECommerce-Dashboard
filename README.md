@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+![alt text](https://github.com/dstreiff/ECommerce-Dashboard/blob/master/src/images/image.png?raw=true)
 Using json server in the back-end
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
