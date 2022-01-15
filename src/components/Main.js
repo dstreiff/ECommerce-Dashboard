@@ -3,7 +3,7 @@ import Order from './Order'
 const Main = ({orders}) => {
   return (
     <main>
-      <h1>Dashoard</h1>
+      <h1>Dashboard</h1>
       <div className="date">
         <input type="date" />
       </div>
