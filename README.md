@@ -9,7 +9,7 @@
 - Dark/Lightmode toggle
 - Sidebar toggle
 - Fully responsive
-- GET request to the "backend" with every reload of the page
+- Fetches data from the "backend" when reloading the page
 
 ## Technologies
 
