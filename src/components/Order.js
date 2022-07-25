@@ -6,7 +6,9 @@ const Order = ({order}) => {
     <td>{order.productNumber}</td>
     <td>{order.paymentStatus}</td>
     <td className={` adf ${order.shipping === 'Declined' ? 'danger' : order.shipping === 'Pending' ? 'warning' : 'primary'}`}>{order.shipping}</td>
-    <td className="primary">Details</td>
+    <Link to = "/orders" >
+      <td className="primary">Details</td>
+    </Link>
     </tr>
   )
 }

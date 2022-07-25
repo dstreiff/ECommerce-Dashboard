@@ -15,4 +15,8 @@
 
 - Frontend built with React
 - Fake REST API with json-server
+
+## Live Demo
+
+https://dashboard-e-commerce.herokuapp.com
  
