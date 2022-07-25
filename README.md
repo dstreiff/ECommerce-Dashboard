@@ -8,7 +8,7 @@
 
 - Dark/Lightmode toggle
 - Sidebar toggle
-- Fully responsive
+- Responsive (Desktop, Tablet and Mobile version)
 - Fetches data from the "backend" when reloading the page
 
 ## Technologies

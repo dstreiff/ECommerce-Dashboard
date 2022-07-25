@@ -20,7 +20,7 @@ function App() {
 
   // Fetch Orders
   const fetchOrders = async () => {
-    const res = await fetch('http://localhost:5000/orders')
+    const res = await fetch('/orders')
     const data = await res.json()
     console.log('loading orders from database');
     return data

@@ -85,7 +85,7 @@ const Main = ({orders}) => {
             ))}
           </tbody>
         </table>
-        <a href="https://magic.reactjs.net/htmltojsx.htm">Show All</a>
+        <a href="/orders">Show All</a>
       </div>
     </main> 
   )
