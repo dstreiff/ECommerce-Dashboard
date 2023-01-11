@@ -1,7 +1,9 @@
 import logo from '../images/logo.png';
 import MenuCloseButton from './MenuCloseButton';
 
+
 const Aside = ({sideMenu, closeMenu}) => {
+
   return (
     <aside 
       style = {sideMenu ? {display : 'block'} : {display: 'none'}}
@@ -9,7 +11,7 @@ const Aside = ({sideMenu, closeMenu}) => {
       <div className="top">
         <div className="logo">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>DEFI<span className="danger">DB</span></h2>
+          <h2>Brand<span className="danger">name</span></h2>
         </div>
         <MenuCloseButton
           closeMenu = {closeMenu}

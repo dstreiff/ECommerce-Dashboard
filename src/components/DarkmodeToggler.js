@@ -1,6 +1,5 @@
  
 
-
 const DarkmodeToggler = ({whenTogglingDarkmode, darkmode}) => {
   return (
     <div 

@@ -1,3 +1,4 @@
+
 const MenuCloseButton = ({closeMenu}) => {
     return (
         <div className="close" id="close-btn" onClick = {closeMenu}>

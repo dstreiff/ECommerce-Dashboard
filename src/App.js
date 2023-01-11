@@ -3,12 +3,14 @@ import Aside from "./components/Aside";
 import Main from "./components/Main";
 import Right from "./components/Right";
 
+
 function App() {
 
   const [darkmode, setDarkmode] = useState(false)
   const [sideMenu, setSideMenu] = useState(window.innerWidth <= 768 ? false: true) 
+  // Or update this state with every window resize
   const [orders, setOrders] = useState([])
-  //or update the state with every window resize
+
   
   useEffect(() => {
     const getOrders = async () => {
@@ -22,7 +24,7 @@ function App() {
   const fetchOrders = async () => {
     const res = await fetch('/orders')
     const data = await res.json()
-    console.log('loading orders from database');
+    console.log('Loading orders from database');
     return data
   }
 

@@ -19,7 +19,7 @@ const Right = ({whenTogglingDarkmode, darkmode, OpenSideMenu}) => {
         />
         <div className="profile">
           <div className="info">
-            <p>Hey, <b>Daniel</b></p>
+            <p>Hey, <b>Mike</b></p>
             <small className="text-muted">Admin</small>
           </div>
           <div className="profile-photo">

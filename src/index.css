@@ -138,15 +138,7 @@ b {
 
 
 
-
-
-
-
-
-
-
-
-
+/* ============= ASIDE Component ============ */
 aside {
   height: 100vh;
 }
@@ -321,7 +313,7 @@ main .insights h3 {
 
 main .insights .progress {
   position: relative;
-  /* check css circle animations separately, 
+  /* TODO: Check the CSS circle animations separately, the 
      circle is not sharp and the number not always centered */
   width: 92px; 
   height: 92px;
@@ -342,9 +334,8 @@ main .insights svg circle {
 }
 
 main .insights .sales svg circle {
- /* check css circle animations separately, 
-     this is not great because the circle is pixelated and the number not always centered
-     check how to offset correctly */
+  /* TODO: Check the CSS circle animations separately, the 
+     circle is not sharp and the number not always centered */
   stroke-dashoffset: -30;
   stroke-dasharray: 200;
 }
@@ -642,7 +633,7 @@ main .recent-orders a {
   }
 }
 
-/* ================= MEDIA QUERIES ================ */
+/* =============== max-width: 768px ============== */
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -654,7 +645,7 @@ main .recent-orders a {
     left: -100%;
     background: var(--color-white);
     width: 18rem;
-     z-index: 3; /* what does that mean? */
+     z-index: 3; /* ? */
     box-shadow: 1rem 3rem 4rem var(--color-light);
     height: 100vh;
     padding-right: var(--card-padding);
@@ -691,14 +682,13 @@ main .recent-orders a {
   }
 
   aside .close {
-    display: inline-block; /* inline might work as well */
+    display: inline-block; /* 'inline' might work as well */
     cursor: pointer;
   }
 
   main {
     margin-top: 8rem;
-    margin-right: 1.4rem; /* not sure about the exact margin on the left side, and maybe there is a 
-                          better way */
+    margin-right: 1.4rem;
     padding: 0 1rem;
   }
 
@@ -717,12 +707,14 @@ main .recent-orders a {
     margin: 0;
   }
 
-  .right {   /* the same way as for main (for phones) one has to adjust the right margin here*/
+  .right {   
+    /* The right margin needs to be adjusted here, the same  
+       way as in the main component (for phone screens) */
     width: 94%;
     margin: 0 auto 4rem;
   }
 
-  .right .top {   /* not 100% clear*/
+  .right .top {   /* not 100% clear */
     position: fixed;
     top: 0;
     left: 0;
