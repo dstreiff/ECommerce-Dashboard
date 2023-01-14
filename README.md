@@ -15,9 +15,9 @@ Screenshot of the website:
 
 ## Technologies
 
-> Frontend built with React
-> Fake REST API with Json-server
-> Deployed with Netlify
+- Frontend built with React
+- Fake REST API with Json-server
+- Deployed with Netlify
 
 ## How To Run:
 1. Clone/Download the repository
